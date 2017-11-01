@@ -1,0 +1,12 @@
+
+apply plugin: 'java'
+
+dependencies {
+    compile "org.springframework.cloud:spring-cloud-starter-eureka"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+
+}
+
+bootRepackage {
+    mainClass = 'com.zrs.server.AServerApp'
+}

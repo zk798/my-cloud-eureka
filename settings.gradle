@@ -1,0 +1,6 @@
+rootProject.name = 'my-cloud-eureka'
+include 'registry-eureka'
+include 'server-a'
+include 'client-feign'
+include 'dashboard-turbine'
+
